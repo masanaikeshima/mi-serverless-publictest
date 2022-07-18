@@ -1,0 +1,13 @@
+org: 8millionstories
+app: mi-public-test
+service: mi-public-test
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
